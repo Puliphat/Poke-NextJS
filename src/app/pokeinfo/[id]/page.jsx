@@ -79,8 +79,9 @@ function PokeInfo() {
                             )}
                         </div>
                         <div className='bg-gradient-to-r from-purple-50 to-blue-50 p-4 rounded-xl border border-purple-100 space-y-4'>
-                            <div className='flex justify-center items-center space-x-2 flex-wrap'>
-                                <p className='text-lg font-semibold text-gray-700'>Height: {poke.height} cm</p>
+                            <div className='flex flex-col justify-center items-center space-x-2 flex-wrap gap-2'>
+                                <p className='text-lg font-semibold text-gray-700'>Height: {poke.height * 10} cm</p> 
+                                <p className='text-lg font-semibold text-gray-700'>Weight: {poke.weight / 10} kg</p>
                             </div>
                             <div className='flex justify-center items-center space-x-2 flex-wrap'>
                                 <p className='text-lg font-semibold text-gray-700'>Abilities:</p>
