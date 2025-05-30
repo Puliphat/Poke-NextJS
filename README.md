@@ -15,7 +15,7 @@ A responsive Pokédex web app built with Next.js and Tailwind CSS, fetching dyna
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/pokedex.git
+   git clone https://github.com/Puliphat/Poke-NextJS
 
 2. Install dependencies & Run the development server
    npm install
